@@ -1,0 +1,18 @@
+{
+  "name": "active_emaily",
+  "version": "1.0.0",
+  "description": "This is Server used to Send Email and collect feedback from user",
+  "main": "index.js",
+  "engines": {
+    "node": "16.20.2",
+    "npm": "8.19.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "pawan patel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
