@@ -5,6 +5,8 @@ app.get('/', (req, res) =>{
     res.send("hi: pawan")
 })
 
-app.listen(5000, () =>{
-    console.log(`server is listining on the port 5000`);
+const PORT = process.env.PORT || 5000
+
+app.listen(PORT, () =>{
+    console.log(`server is listining on the port ${PORT}`);
 })
